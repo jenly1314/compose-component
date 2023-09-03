@@ -12,7 +12,7 @@
 compose-component 是一个Jetpack Compose的组件库；主要提供了一些小组件，便于快速使用。
 
 ## Gif 展示
-![Image](GIF.gif)
+![Image](art/compose-component.gif)
 
 > 你也可以直接下载 [演示App](https://raw.githubusercontent.com/jenly1314/compose-component/master/app/release/app-release.apk) 体验效果
 
@@ -55,12 +55,12 @@ compose组件的使用大都比较直观，一般只需看一下 **Composable** 
 
 ### 组件示例效果图
 
-![](art/CircularChartIndicatorSamplePreview.png)
-![](art/HorizontalCharIndicatorSamplePreview.png)
-![](art/VerticalChartIndicatorSamplePreview.png)
+![](art/CircularChartIndicatorSamplePreview.png){ width=50% height=auto }
+![](art/HorizontalCharIndicatorSamplePreview.png){ width=50% height=auto }
+![](art/VerticalChartIndicatorSamplePreview.png){ width=50% height=auto }
 
-![](art/TextFieldSamplePreview.png)
-![](art/SideBarSamplePreview.png)
+![](art/TextFieldSamplePreview.png){ width=50% height=auto }
+![](art/SideBarSamplePreview.png){ width=50% height=auto }
 
 > 后续会根据需求场景，不定期补充各种小组件。
 
