@@ -5,9 +5,13 @@ orbs:
 
 jobs:
   build:
-    executor: android/android
     docker:
       - image: cimg/openjdk:17.0.7
+  test:
+    executor:
+      name: android/android-machine
+      resource-class: large
+      tag: 2021.10.1
     steps:
       - checkout
       - run:
