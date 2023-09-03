@@ -2,6 +2,8 @@ version: 2.1
 
 orbs:
   android: circleci/android@0.2.0
+  java:
+    version: openjdk17
 
 jobs:
   build:
@@ -10,4 +12,6 @@ jobs:
     steps:
       - checkout
       - run:
+          with:
+            java-version: 17
           command: ./gradlew build
