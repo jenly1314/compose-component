@@ -12,6 +12,7 @@
 compose-component 是一个Jetpack Compose的组件库；主要提供了一些小组件，便于快速使用。
 
 ## Gif 展示
+
 ![Image](art/compose-component.gif)
 
 > 你也可以直接下载 [演示App](https://raw.githubusercontent.com/jenly1314/compose-component/master/app/release/app-release.apk) 体验效果
@@ -45,27 +46,18 @@ compose组件的使用大都比较直观，一般只需看一下 **Composable** 
 
 这里列一下目前 **compose-component** 所包含的一些组件，方便快速查找。
 
-| 组件名称                     | 组件说明        | 使用示例                                                                                                       |
-|:-------------------------|:------------|:-----------------------------------------------------------------------------------------------------------|
-| CircularChartIndicator   | 圆形图表指示器     | [代码示例](app/src/main/java/com/king/compose/component/app/component/chart/CircularChartIndicatorSample.kt)   |
-| HorizontalChartIndicator | 水平图表指示器     | [代码示例](app/src/main/java/com/king/compose/component/app/component/chart/HorizontalChartIndicatorSample.kt) |
-| VerticalChartIndicator   | 垂直图表指示器     | [代码示例](app/src/main/java/com/king/compose/component/app/component/chart/VerticalChartIndicatorSample.kt)   |
-| TextField                | 文本输入框（正则限制） | [代码示例](app/src/main/java/com/king/compose/component/app/component/text/TextFieldSample.kt)                 |
-| SideBar                  | 字母索引侧边栏     | [代码示例](app/src/main/java/com/king/compose/component/app/component/bar/SideBarSample.kt)                    |
-
-### 组件示例效果图
-
-<div>
-<img src="art/CircularChartIndicatorSamplePreview.png" width="60%">
-<img src="art/HorizontalCharIndicatorSamplePreview.png" width="60%">
-<img src="art/VerticalChartIndicatorSamplePreview.png" width="60%">
-<img src="art/TextFieldSamplePreview.png" width="60%">
-<img src="art/SideBarSamplePreview.png" width="60%">
-</div>
+| 组件名称                     | 组件说明        | 组件使用示例                                                                                                     | 组件示例效果图                                              |
+|:-------------------------|:------------|:-----------------------------------------------------------------------------------------------------------|:-----------------------------------------------------|
+| CircularChartIndicator   | 圆形图表指示器     | [代码示例](app/src/main/java/com/king/compose/component/app/component/chart/CircularChartIndicatorSample.kt)   | [示例截图](art/CircularChartIndicatorSamplePreview.png)  |
+| HorizontalChartIndicator | 水平图表指示器     | [代码示例](app/src/main/java/com/king/compose/component/app/component/chart/HorizontalChartIndicatorSample.kt) | [示例截图](art/HorizontalCharIndicatorSamplePreview.png) |
+| VerticalChartIndicator   | 垂直图表指示器     | [代码示例](app/src/main/java/com/king/compose/component/app/component/chart/VerticalChartIndicatorSample.kt)   | [示例截图](art/VerticalChartIndicatorSamplePreview.png)  |
+| TextField                | 文本输入框（正则限制） | [代码示例](app/src/main/java/com/king/compose/component/app/component/text/TextFieldSample.kt)                 | [示例截图](art/TextFieldSamplePreview.png)               |
+| SideBar                  | 字母索引侧边栏     | [代码示例](app/src/main/java/com/king/compose/component/app/component/bar/SideBarSample.kt)                    | [示例截图](art/SideBarSamplePreview.png)                 |
 
 > 后续会根据需求场景，不定期补充各种小组件。
 
-更多使用详情，请查看[app](app)中的源码使用示例或直接查看 [API帮助文档](https://jitpack.io/com/github/jenly1314/compose-component/latest/javadoc/)
+更多使用详情，请查看[app](app)
+中的源码使用示例或直接查看 [API帮助文档](https://jitpack.io/com/github/jenly1314/compose-component/latest/javadoc/)
 
 ## 版本记录
 
