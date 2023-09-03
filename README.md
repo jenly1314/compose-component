@@ -55,12 +55,13 @@ compose组件的使用大都比较直观，一般只需看一下 **Composable** 
 
 ### 组件示例效果图
 
-![](art/CircularChartIndicatorSamplePreview.png){ width=50% height=auto }
-![](art/HorizontalCharIndicatorSamplePreview.png){ width=50% height=auto }
-![](art/VerticalChartIndicatorSamplePreview.png){ width=50% height=auto }
-
-![](art/TextFieldSamplePreview.png){ width=50% height=auto }
-![](art/SideBarSamplePreview.png){ width=50% height=auto }
+<div>
+<img src="art/CircularChartIndicatorSamplePreview.png" width="60%">
+<img src="art/HorizontalCharIndicatorSamplePreview.png" width="60%">
+<img src="art/VerticalChartIndicatorSamplePreview.png" width="60%">
+<img src="art/TextFieldSamplePreview.png" width="60%">
+<img src="art/SideBarSamplePreview.png" width="60%">
+</div>
 
 > 后续会根据需求场景，不定期补充各种小组件。
 
