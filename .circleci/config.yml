@@ -7,7 +7,6 @@ jobs:
   build:
     docker:
       - image: cimg/openjdk:17.0.7
-  test:
     executor:
       name: android/android-machine
       resource-class: large
