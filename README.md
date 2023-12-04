@@ -38,9 +38,9 @@ compose-component 是一个Jetpack Compose的组件库；主要提供了一些�
 
 ## 使用说明
 
-compose组件的使用大都比较直观，一般只需看一下 **Composable** 函数对应的入参就基本就会使用了。
+**compose** 组件的使用大都比较直观，一般只需看一下 Composable 函数对应的参数说明基本就会使用了。
 
-> 如果通过入参还是没太看懂怎么用的，你也可以通过直接看下面各个组件对应的代码示例来加深理解。
+> 如果通过参数还是没太看懂怎么用的，你也可以通过直接看下面各个组件对应的代码示例来加深理解。
 
 ### 组件说明
 
@@ -56,8 +56,12 @@ compose组件的使用大都比较直观，一般只需看一下 **Composable** 
 
 > 后续会根据需求场景，不定期补充各种小组件。
 
-更多使用详情，请查看[app](app)
-中的源码使用示例或直接查看 [API帮助文档](https://jitpack.io/com/github/jenly1314/compose-component/latest/javadoc/)
+更多使用详情，请查看[app](app)中的源码使用示例或直接查看 [API帮助文档](https://jitpack.io/com/github/jenly1314/compose-component/latest/javadoc/)
+
+## 相关推荐
+
+#### [CodeTextField](https://github.com/jenly1314/CodeTextField)一个使用 Compose 实现的验证码输入框。
+#### [UltraSwipeRefresh](https://github.com/jenly1314/UltraSwipeRefresh)一个可带来极致体验的 **Compose** 刷新组件；支持下拉刷新和上拉加载，可完美替代官方的 **SwipeRefresh**；并且支持的功能更多，可扩展性更强。
 
 ## 版本记录
 
@@ -67,9 +71,8 @@ compose组件的使用大都比较直观，一般只需看一下 **Composable** 
 
 ## 赞赏
 
-如果您喜欢compose-component，或感觉compose-component帮助到了您，可以点右上角“Star”支持一下，您的支持就是我的动力，谢谢 :
-smiley:<p>
-您也可以扫描下面的二维码，请作者喝杯咖啡 :coffee:
+如果您喜欢compose-component，或感觉compose-component帮助到了您，可以点右上角“Star”支持一下，您的支持就是我的动力，谢谢 :smiley:
+<p>您也可以扫描下面的二维码，请作者喝杯咖啡 :coffee:
 <div>
 <img src="https://jenly1314.github.io/image/pay/sponsor.png" width="98%">
 </div>
