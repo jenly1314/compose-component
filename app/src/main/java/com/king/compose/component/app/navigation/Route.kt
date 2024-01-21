@@ -14,4 +14,5 @@ enum class Route {
     VerticalChartIndicator,
     TextField,
     SideBar,
+    AnimatedDialog,
 }

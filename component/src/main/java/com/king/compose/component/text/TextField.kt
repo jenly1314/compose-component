@@ -46,9 +46,13 @@ fun TextField(
     regex: String? = null,
     decorationBox: @Composable (innerTextField: @Composable () -> Unit) -> Unit = @Composable { innerTextField -> innerTextField() }
 ) {
-    var lastTextValue by remember(value) { mutableStateOf(value) }
+    var lastTextValue by remember { mutableStateOf(value) }.apply {
+        this.value = value
+    }
 
-    var lastRegex by remember("regex: $regex") { mutableStateOf(regex) }
+    var lastRegex by remember { mutableStateOf(regex) }.apply {
+        this.value = regex
+    }
 
     BasicTextField(
         value = value,

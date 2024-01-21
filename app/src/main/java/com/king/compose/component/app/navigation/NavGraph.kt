@@ -8,6 +8,7 @@ import com.king.compose.component.app.component.bar.SideBarSample
 import com.king.compose.component.app.component.chart.CircularChartIndicatorSample
 import com.king.compose.component.app.component.chart.HorizontalChartIndicatorSample
 import com.king.compose.component.app.component.chart.VerticalChartIndicatorSample
+import com.king.compose.component.app.component.dialog.AnimatedDialogSample
 import com.king.compose.component.app.component.text.TextFieldSample
 
 /**
@@ -35,5 +36,8 @@ fun NavGraphBuilder.navGraph(navController: NavController) {
     }
     composable(route = Route.SideBar.name) {
         SideBarSample()
+    }
+    composable(route = Route.AnimatedDialog.name) {
+        AnimatedDialogSample()
     }
 }

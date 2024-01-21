@@ -47,4 +47,5 @@ dependencies {
     androidTestImplementation "androidx.test.espresso:espresso-core:$versions.espresso"
 
     implementation "androidx.compose.foundation:foundation:$versions.foundation"
+    implementation "androidx.compose.animation:animation:$versions.animation"
 }

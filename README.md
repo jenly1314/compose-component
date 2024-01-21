@@ -46,13 +46,14 @@ compose-component 是一个Jetpack Compose的组件库；主要提供了一些�
 
 这里列一下目前 **compose-component** 所包含的一些组件，方便快速查找。
 
-| 组件名称                     | 组件说明        | 组件使用示例                                                                                                     | 组件示例效果图                                              |
-|:-------------------------|:------------|:-----------------------------------------------------------------------------------------------------------|:-----------------------------------------------------|
-| CircularChartIndicator   | 圆形图表指示器     | [代码示例](app/src/main/java/com/king/compose/component/app/component/chart/CircularChartIndicatorSample.kt)   | [示例截图](art/CircularChartIndicatorSamplePreview.png)  |
-| HorizontalChartIndicator | 水平图表指示器     | [代码示例](app/src/main/java/com/king/compose/component/app/component/chart/HorizontalChartIndicatorSample.kt) | [示例截图](art/HorizontalCharIndicatorSamplePreview.png) |
-| VerticalChartIndicator   | 垂直图表指示器     | [代码示例](app/src/main/java/com/king/compose/component/app/component/chart/VerticalChartIndicatorSample.kt)   | [示例截图](art/VerticalChartIndicatorSamplePreview.png)  |
-| TextField                | 文本输入框（正则限制） | [代码示例](app/src/main/java/com/king/compose/component/app/component/text/TextFieldSample.kt)                 | [示例截图](art/TextFieldSamplePreview.png)               |
-| SideBar                  | 字母索引侧边栏     | [代码示例](app/src/main/java/com/king/compose/component/app/component/bar/SideBarSample.kt)                    | [示例截图](art/SideBarSamplePreview.png)                 |
+| 组件名称                     | 组件说明        | 组件使用示例                                                                                                     | 组件示例效果图                                             |
+|:-------------------------|:------------|:-----------------------------------------------------------------------------------------------------------|:----------------------------------------------------|
+| CircularChartIndicator   | 圆形图表指示器     | [代码示例](app/src/main/java/com/king/compose/component/app/component/chart/CircularChartIndicatorSample.kt)   | [示例图](art/CircularChartIndicatorSamplePreview.png)  |
+| HorizontalChartIndicator | 水平图表指示器     | [代码示例](app/src/main/java/com/king/compose/component/app/component/chart/HorizontalChartIndicatorSample.kt) | [示例图](art/HorizontalCharIndicatorSamplePreview.png) |
+| VerticalChartIndicator   | 垂直图表指示器     | [代码示例](app/src/main/java/com/king/compose/component/app/component/chart/VerticalChartIndicatorSample.kt)   | [示例图](art/VerticalChartIndicatorSamplePreview.png)  |
+| TextField                | 文本输入框（正则限制） | [代码示例](app/src/main/java/com/king/compose/component/app/component/text/TextFieldSample.kt)                 | [示例图](art/TextFieldSamplePreview.png)               |
+| SideBar                  | 字母索引侧边栏     | [代码示例](app/src/main/java/com/king/compose/component/app/component/bar/SideBarSample.kt)                    | [示例图](art/SideBarSamplePreview.png)                 |
+| AnimatedDialog           | 动画对话框       | [代码示例](app/src/main/java/com/king/compose/component/app/component/dialog/AnimatedDialogSample.kt)          | [示例图](art/AnimatedDialogSamplePreview.gif)          |
 
 > 后续会根据需求场景，不定期补充各种小组件。
 
@@ -64,6 +65,10 @@ compose-component 是一个Jetpack Compose的组件库；主要提供了一些�
 #### [UltraSwipeRefresh](https://github.com/jenly1314/UltraSwipeRefresh)一个可带来极致体验的 **Compose** 刷新组件；支持下拉刷新和上拉加载，可完美替代官方的 **SwipeRefresh**；并且支持的功能更多，可扩展性更强。
 
 ## 版本记录
+
+#### v1.1.0：2024-1-21
+
+* 新增`AnimatedDialog`（动画对话框：主要是在`Dialog`的基础之上增加了可见性过渡动画，并解决`Dialog`的宽度显示问题）
 
 #### v1.0.0：2023-9-3
 
