@@ -33,7 +33,7 @@ compose-component 是一个Jetpack Compose的组件库；主要提供了一些�
 2. 在Module的 **build.gradle** 里面添加引入依赖项
 
     ```gradle
-    implementation 'com.github.jenly1314:compose-component:1.0.0'
+    implementation 'com.github.jenly1314:compose-component:1.1.0'
     ```
 
 ## 使用说明
@@ -78,9 +78,9 @@ compose-component 是一个Jetpack Compose的组件库；主要提供了一些�
 
 如果您喜欢compose-component，或感觉compose-component帮助到了您，可以点右上角“Star”支持一下，您的支持就是我的动力，谢谢 :smiley:
 <p>您也可以扫描下面的二维码，请作者喝杯咖啡 :coffee:
-<div>
-<img src="https://jenly1314.github.io/image/pay/sponsor.png" width="98%">
-</div>
+   <div>
+       <img src="https://jenly1314.github.io/image/page/rewardcode.png">
+   </div>
 
 ## 关于我
 
@@ -98,9 +98,7 @@ GitHub: <a title="GitHub开源项目" href="https://github.com/jenly1314" target
 
 Gitee: <a title="Gitee开源项目" href="https://gitee.com/jenly1314" target="_blank">jenly1314</a>
 
-加入QQ群: <a title="点击加入QQ群" href="http://shang.qq.com/wpa/qunwpa?idkey=8fcc6a2f88552ea44b1411582c94fd124f7bb3ec227e2a400dbbfaad3dc2f5ad" target="_blank">
-20867961</a>
+加入QQ群: <a title="点击加入QQ群" href="https://qm.qq.com/cgi-bin/qm/qr?k=6_RukjAhwjAdDHEk2G7nph-o8fBFFzZz" target="_blank">20867961</a> 、<a title="点击加入QQ群" href="https://qm.qq.com/cgi-bin/qm/qr?k=Z9pobM8bzAW7tM_8xC31W8IcbIl0A-zT" target="_blank">64020761</a>
    <div>
-       <img src="https://jenly1314.github.io/image/jenly666.png">
-       <img src="https://jenly1314.github.io/image/qqgourp.png">
+       <img src="https://jenly1314.github.io/image/page/footer.png">
    </div>
