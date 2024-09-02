@@ -6,7 +6,6 @@
 [![CircleCI](https://circleci.com/gh/jenly1314/compose-component.svg?style=svg)](https://circleci.com/gh/jenly1314/compose-component)
 [![API](https://img.shields.io/badge/API-21%2B-blue.svg?style=flat)](https://android-arsenal.com/api?level=21)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/mit-license.php)
-[![Blog](https://img.shields.io/badge/blog-Jenly-9933CC.svg)](https://jenly1314.github.io/)
 
 compose-component 是一个Jetpack Compose的组件库；主要提供了一些小组件，便于快速使用。
 
@@ -56,22 +55,21 @@ compose-component 是一个Jetpack Compose的组件库；主要提供了一些�
 
 > 后续会根据需求场景，不定期补充各种小组件。
 
-更多使用详情，请查看[app](app)中的源码使用示例或直接查看 [API帮助文档](https://jitpack.io/com/github/jenly1314/compose-component/latest/javadoc/)
+更多使用详情，请查看[app](app)中的源码使用示例或直接查看 [API帮助文档](https://jenly1314.github.io/compose-component/api/)
 
 ## 相关推荐
 
 #### [CodeTextField](https://github.com/jenly1314/CodeTextField)一个使用 Compose 实现的验证码输入框。
-#### [UltraSwipeRefresh](https://github.com/jenly1314/UltraSwipeRefresh)一个可带来极致体验的 **Compose** 刷新组件；支持下拉刷新和上拉加载，可完美替代官方的 **SwipeRefresh**；并且支持的功能更多，可扩展性更强。
+#### [UltraSwipeRefresh](https://github.com/jenly1314/UltraSwipeRefresh)一个可带来极致体验的 **Compose** 刷新组件；支持下拉刷新和上拉加载，可完美替代官方的 **SwipeRefresh** ；并且支持的功能更多，可扩展性更强。
 
-## 版本记录
+<!-- end -->
+
+## 版本日志
 
 #### v1.1.0：2024-1-21
-
 * 新增`AnimatedDialog`（动画对话框：主要是在`Dialog`的基础之上增加了可见性过渡动画，并解决`Dialog`的宽度显示问题）
 
-#### v1.0.0：2023-9-3
-
-* compose-component初始版本
+#### [查看更多版本日志](CHANGELOG.md)
 
 ## 赞赏
 
