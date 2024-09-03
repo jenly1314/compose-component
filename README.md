@@ -59,8 +59,8 @@ compose-component 是一个Jetpack Compose的组件库；主要提供了一些�
 
 ## 相关推荐
 
-#### [CodeTextField](https://github.com/jenly1314/CodeTextField)一个使用 Compose 实现的验证码输入框。
-#### [UltraSwipeRefresh](https://github.com/jenly1314/UltraSwipeRefresh)一个可带来极致体验的 **Compose** 刷新组件；支持下拉刷新和上拉加载，可完美替代官方的 **SwipeRefresh** ；并且支持的功能更多，可扩展性更强。
+- [CodeTextField](https://github.com/jenly1314/CodeTextField)一个使用 Compose 实现的验证码输入框。
+- [UltraSwipeRefresh](https://github.com/jenly1314/UltraSwipeRefresh)一个可带来极致体验的 Compose 刷新组件；支持下拉刷新和上拉加载，可完美替代官方的 **SwipeRefresh** ；并且支持的功能更多，可扩展性更强。
 
 <!-- end -->
 
